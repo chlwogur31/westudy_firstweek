@@ -1,0 +1,58 @@
+*{
+    background-color: #787878;
+    font-family: 'Inspiration', cursive;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Single Day', cursive;
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    width:650px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+div > article{
+    float : left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img {
+    display: block;
+    width: 170px;
+    height: 200px;
+}
+
+article:hover{
+    transform: scale(1.5);
+}
+
+h1 {
+    color:black; 
+    background-color: blueviolet;
+    display: inline;
+    text-align: center; 
+    list-style: none;
+}
+#topMenu {         
+    height: 30px;
+    width: 850px; 
+}
+#topMenu ul li {                      
+    list-style: none;           
+    color: white;               
+    line-height: 30px;         
+    vertical-align: middle;    
+    text-align: center;        
+}
+#topMenu .menuLink {                             
+    text-decoration:none;                     
+    color: white;                             
+    display: block;                           
+    width: 150px;                             
+    font-size: 12px;                          
+    font-weight: bold;                         
+    font-family: "Trebuchet MS", Dotum, Arial; 
+}
+#topMenu .menuLink:hover {           
+    color:black;                     
+}
